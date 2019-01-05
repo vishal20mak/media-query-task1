@@ -1,0 +1,75 @@
+	body{
+		background-color: gray
+	}
+	.header-background{
+		background-color: orange;
+	}
+
+	.header-logo-width{
+		width: 100px;
+	}
+	h2{ 
+		margin: 0px;
+		text-align:center;
+	}
+	.form-title{
+		background-color: green;
+		text-align: center;
+		margin: 0px;
+	}
+	.form-margin{
+		margin-bottom: 0px
+	}
+	.name-input-left{
+		background-color: pink;
+		text-align:left;
+	}
+	.checkbox-margin{
+		margin-bottom: 0px;
+	}
+	.name-input-right{
+		background-color:blue;	
+	}
+	.font-20{
+		font-size: 20px !important;
+	}
+	.contact{
+		position: absolute;
+		top: 58%;
+		background-color: white;
+		margin-left: 0px
+	}
+	.details{
+		border: 3PX solid white;
+		padding: 10px;
+		border-radius: 10px;
+		text-align: left;
+	}
+	.notice-bord{
+		background-color: yellow
+	}
+	.notice-bord-border{
+		border-left: 2px solid black;
+	}
+	.notice-bord-margin{
+		margin-bottom: 30px;
+	}
+	@media screen and (max-width: 992px) {
+  body {
+    background-color: white;
+    
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: olive;
+    }
+}
+@media screen and (max-width: 500px)
+{
+	body{
+		font-size: 20px !important
+	}
+}
+		
